@@ -5,7 +5,7 @@ import org.springframework.beans.factory.annotation.Value;
 import javax.inject.Named;
 import javax.inject.Singleton;
 
-@Named
+@Named("userprofileParams")
 @Singleton
 public class ApplicationParams {
 
