@@ -5,7 +5,7 @@ import javax.persistence.Entity;
 import javax.persistence.Id;
 import javax.persistence.Table;
 
-@Entity
+@Entity(name = "user-profile-jurisdiction")
 @Table(name = "jurisdiction")
 public class JurisdictionEntity {
 
